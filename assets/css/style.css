@@ -1,0 +1,235 @@
+/* -----------------------------------*/
+/* ---------->>> Global <<<-----------*/
+/* -----------------------------------*/
+
+body {
+    margin: 0px;
+    background-color: rgb(241, 241, 241);
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+footer {
+    margin-top: 10px;
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: auto;
+}
+
+section {
+    max-width: 960px;
+    margin: auto;   
+}
+
+button {
+    border-width: 0px;
+}
+
+input {
+    cursor:pointer;
+}
+
+input:focus {
+    border: 0 none;
+    outline: 0; 
+}
+
+/* -----------------------------------*/
+/* ---------->>> Home <<<-----------*/
+/* -----------------------------------*/
+
+.alterar {
+    text-align: end;
+}
+
+.alterar .botao_alterar{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* -----------------------------------*/
+/* ---------->>> Alterar <<<-----------*/
+/* -----------------------------------*/
+
+.section_alterar {
+    border-radius: 20px;
+    display: flex;
+    background-color: white;
+}
+
+section .parte_formulario {
+    margin: auto;
+}
+
+/* -----------------------------------*/
+/* ---------->>> Home / Alterar <<<-----------*/
+/* -----------------------------------*/
+
+section .produto {
+    padding: 24px;
+    margin: 8px;
+    width: 175px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 1px #666;
+}
+
+section .imagem {
+    width: 175px;
+    height: 175px;
+    margin: auto;
+}
+
+section .produto img {
+    width: 100%;
+    height: 100%;     
+}
+
+section .produto .categoria {
+    color: rgba(0,0,0,0.38);
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+section .produto .precos {
+    margin-top: 15px;
+}
+
+section .produto .precos .preco_antigo {
+    color: rgba(0,0,0,0.38);
+    font-size: 13px;
+}
+section .produto .precos .preco_atual {
+    color: #3498db;
+}
+
+section .produto .precos .preco_vezes {
+    color: rgba(0,0,0,0.38);
+    font-size: 13px;
+}
+
+section .produto .titulo_produto {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.produtos {
+    margin: auto;
+    display: flex;
+}
+
+.produtos .container_produtos{
+    margin-top: 8px;
+}
+
+.produtos .produto_tags {
+    position: absolute;
+    justify-content: flex-end;
+}
+
+.produtos .produto_tags a{
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 50%;
+    padding: 9px;
+    position: relative;
+    text-decoration: none;
+    margin-left: 210px;
+    cursor:pointer;
+    box-shadow: 0 0 2px #666;
+}
+
+.precos div {
+    margin-bottom: 3px;
+}
+
+.produto .precos .preco_antigo .span_preco {
+    text-decoration:line-through;
+}
+
+.titulo {
+    max-width: 960px;
+}
+
+.titulo p{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.adicionar {
+    margin: auto 0px;
+    justify-content: flex-end;    
+}
+
+.adicionar .botao_adicionar {
+    background-color: #3498db;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    height: 36px; 
+    cursor: pointer;
+}
+
+.adicionar  a{
+    color: white;
+    text-decoration: none;
+    background-color: #3498db;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 2px #666;
+}
+
+/* -----------------------------------*/
+/* ---------->>> Adicionar / Alterar <<<-----------*/
+/* -----------------------------------*/
+
+section .formulario {
+    padding: 10px;
+    background-color: white;
+}
+
+section .formulario #titulo, section .formulario #preco, section .formulario #desconto, section .formulario #parcela, section .formulario #botao{
+    background-color:#d3d3d34d;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+section .formulario #botao {
+    padding: 6px;
+    border-radius: 20px;
+    background-color: #3498db;
+    box-shadow: 0 0 2px #666;
+    color: white;
+    border-width: 0px;
+}
+
+.mens_inserir, .mens_tamanho, .mens_extensao {
+    background-color: #ff0000b3;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+/* -----------------------------------*/
+/* ---------->>> Adicionar <<<-----------*/
+/* -----------------------------------*/
+
+.mens_sucesso {
+    background-color: #008000b3;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+}
