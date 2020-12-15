@@ -6,3 +6,4 @@ Ele se assemelha a gerência de uma loja virtual.<br>
 
 # MVC
 A arquitetura MVC é uma forma de organização para programas, que consiste em dividir um sistema em três partes principai: Model, Controller e Viwer.<br>
+<h2> Model </h2>
